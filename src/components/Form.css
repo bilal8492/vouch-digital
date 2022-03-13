@@ -1,0 +1,83 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    width: 40%;
+    height: 94.6vh;
+    /* background-color: rgb(255, 230, 0); */
+
+
+}
+.welcom-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sub-title{
+    color: gray;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.input{
+    height: 45px;
+    border-radius: 5px;
+}
+.btn{
+    height: 45px;
+    background-color: #023047;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.checkbox{
+    /* background-color: #023047;
+     */
+     color: #023047;
+     font-weight: bold;
+
+}
+.check-forgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 10px;
+}
+.forgot-password{
+    color: #023047;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #023047;
+    border-color: #023047;
+  }
+@media (max-width: 750px) {
+    .form-container{
+        width: 50%;
+    }
+}
+@media (max-width: 400px) {
+    .welcom-title >h1{
+        font-size: 24px;
+    }
+    .welcom-title >span {
+        font-size: 12px;
+    }
+    .checkbox{
+        font-size: 8px;
+    }
+    .forgot-password{
+        font-size: 8px;
+    }
+  
+}
+@media (max-width: 575px) {
+    .checkbox{
+        font-size: 10px;
+    }
+    .forgot-password{
+        font-size: 10px;
+    }
+}

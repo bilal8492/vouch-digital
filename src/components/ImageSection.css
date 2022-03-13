@@ -1,0 +1,9 @@
+.image-section{
+    height: 94.6vh;
+    width: 100%;
+}
+@media (max-width: 750px) {
+    .image-section{
+       display: none;
+    }
+}
