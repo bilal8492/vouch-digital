@@ -8,7 +8,7 @@ const Form = () => {
   const [password, setPassword] = useState('');
 
   const onSubmit = () => {
-    if (email=='' || password=='') {
+    if (email==='' || password==='') {
       message.error('Please enter email and password');
       return ;
     }
